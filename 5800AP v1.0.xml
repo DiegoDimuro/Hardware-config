@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group name="configserver">
+  <group name="networking">
+    <group name="eth0">
+      <item name="IP_Address">
+        <val><![CDATA[10.193.108.28]]></val>
+      </item>
+    </group>
+    <group name="wifi0">
+      <group name="Radio">
+        <item name="Power_Level">
+          <val><![CDATA[28]]></val>
+        </item>
+        <item name="Data_Rate">
+          <val><![CDATA[1]]></val>
+        </item>
+        <item name="Channel">
+          <val><![CDATA[10]]></val>
+        </item>
+        <item name="Channel_Block_1">
+          <val><![CDATA[0]]></val>
+        </item>
+        <item name="Channel_Block_2">
+          <val><![CDATA[0]]></val>
+        </item>
+        <item name="Channel_Block_3">
+          <val><![CDATA[0]]></val>
+        </item>
+        <item name="Channel_Block_4">
+          <val><![CDATA[0]]></val>
+        </item>
+        <item name="Max_Distance">
+          <val><![CDATA[4300]]></val>
+        </item>
+        <item name="Beacon_Interval">
+          <val><![CDATA[100]]></val>
+        </item>
+        <item name="SSID_Bcast_Disable">
+          <val><![CDATA[0]]></val>
+        </item>
+        <item name="Intmit">
+          <val><![CDATA[0]]></val>
+        </item>
+        <item name="Bursting">
+          <val><![CDATA[0]]></val>
+        </item>
+      </group>
+      <item name="IP_Address">
+        <val><![CDATA[10.193.108.28]]></val>
+      </item>
+      <item name="Mode">
+        <val><![CDATA[0]]></val>
+      </item>
+      <item name="ESSID">
+        <val><![CDATA[enlace_chacabuco_hormiga]]></val>
+      </item>
+      <item name="Encryption">
+        <val><![CDATA[5]]></val>
+      </item>
+      <group name="WPA">
+        <item name="Passphrase">
+          <val><![CDATA[xxxxxx]]></val>
+        </item>
+      </group>
+    </group>
+    <item name="Gateway_IP">
+      <val><![CDATA[10.193.108.1]]></val>
+    </item>
+  </group>
+  <group name="identification">
+    <item name="DeviceName">
+      <val><![CDATA[xxxxxx]]></val>
+    </item>
+    <item name="Contact">
+      <val><![CDATA[Diego Dimuro]]></val>
+    </item>
+    <item name="Location">
+      <val><![CDATA[xxxxxxx]]></val>
+    </item>
+    <item name="Password">
+      <val><![CDATA[xxxxxx]]></val>
+    </item>
+  </group>
+  <group name="webpage">
+    <item name="A1_Locales" lock="locked">
+      <val><![CDATA[4]]></val>
+    </item>
+  </group>
+</group>
